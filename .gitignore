@@ -1,0 +1,40 @@
+# Data files — regenerate via notebooks
+data/raw/
+data/processed/
+data/picture/
+
+# Trained model artifacts
+models/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# API keys — never commit these
+.env.local
+secrets.json
+api_keys.py
